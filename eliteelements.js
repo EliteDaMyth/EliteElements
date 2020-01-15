@@ -292,7 +292,7 @@ function makeTable(spelling, line, final) {
           }
           var download = document.getElementById("download")
           download.href = dataUrl
-          download.download = word+"-chemspeller.png"
+          download.download = word+"-eliteelements.png"
         }
     });
   }
