@@ -386,8 +386,8 @@ function elementSpell() {
     params.word = word;
   }
 	history.replaceState('', document.title, "index.html"+makeUrlVars(params))
-  ga('set', 'page', "index.html"+makeUrlVars(params))
-  ga('send', 'pageview')
+  //ga('set', 'page', "index.html"+makeUrlVars(params))
+ // ga('send', 'pageview')
 	if (/[^A-Za-z ]/g.test(word)) {
 		word = ";"
 	}
